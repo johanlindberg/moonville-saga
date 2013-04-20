@@ -10,11 +10,11 @@
 | 2035 | The first shuttle transporting Helium-3 back to Earth returns with far less than expected. |
 | 2035 | Luna Mining Initiative appoints a new COO. |
 | 2038 | The Lunar Initiative's Helium-3 nuclear fusion research builds a very efficient prototype reactor. Helium-3 price and demand sky-rocket. |
-|------|-----------------------------------|
+
 | Year | Part II: Long-term Human Presence |
 |------|:----------------------------------|
 | 2050 | ... |
-|------|-------------------------------|
+
 | Year | Part III: Colonizing the Moon |
 |------|:------------------------------|
 | 2070 | ... |
