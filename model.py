@@ -7,13 +7,24 @@ class Robonaut(object):
     pass
 
 class Solar_Cell(object):
-    pass
+    def __init__(self):
+        self.energy_output = 1 # ?
 
 class Processor(object):
-    pass
+    def __init__(self):
+        self.capacity = 100 # m^3/h
 
-class Digger(object):
-    pass
+class Dumper(object):
+    def __init__(self):
+        self.capacity = 2 # m^3
+        self.speed = 30 # km/h
+        self.energy_consumption = 1 # ?
+
+class Hauler(object):
+    def __init__(self):
+        self.capacity = 10 # m^3
+        self.speed = 50 # km/h
+        self.energy_cosumption = 1 # ?
 
 ## Raw Material
 class Regolith(object):
@@ -31,7 +42,7 @@ class Regolith(object):
         # There's roughly 0.000035 kg He-3 per cubic meter. To get the 100 kg
         # (220 pounds) described above we would have to dig up and process
         # 3 000 000 cubic meters.
-        self.concentration = 0.000035
+        self.concentration = 0.000035 # kg/m^3
 
     def process(self, amount = 1, concentration = None, variation = None):
         """Returns the amount (in kg) of He-3 that can be processed.
@@ -58,7 +69,6 @@ class Regolith(object):
         
         # Amount of He-3 in this sample
         return a * amount
-        
         
 ## External events
 class External_Event(object):
